@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(255 , 255, 255 );
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    gap: 13px;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    min-width: 50px;
+    padding: 15px;
+    padding-left: 8px;
+
+    min-height: 35px;
+    background-color: rgb(168, 112,78 );
+    
+    border-radius: 12px;
+}
+
+.img1{
+        width: 5%;
+        height: 5%;
+        /* align-items: flex-start; */
+
+        /* width: 45px; */
+        /* width: auto; */
+    }
+.box1{
+    /* width: 100%;
+    height: 100%; */
+    border-radius: 8px;
+}
