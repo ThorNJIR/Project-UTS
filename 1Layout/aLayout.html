@@ -12,17 +12,18 @@
         }
     </style> -->
     <!-- Layar bagi -->
-     <frameset rows="20%, 70%, *, 10%" noresize >
+     <!-- <frameset rows="20%, 70%, *, 10%" noresize > -->
+     <frameset rows="15%, 8%, *, 8%" noresize >
         <frame src="bHeader.html" name="header" scrolling="no">
             <!-- <frame src="cNavigation.html" name="navigation"></frame> -->
-        <!-- <frame src="cNavigation.html" name="navigation"> -->
-            <frameset cols="15%, 75%">
+        <frame src="cNavigation.html" name="navigation" scrolling="no" noresize>
+            <frameset cols="13%, 87%">
                 <!-- Name digunakan untuk selector target -->
                 <frame src="dSidebar.html" name="kiri">
                 <frame src="eContent.html" name="kanan">
             </frameset>
-        <frameset>
-            <frame src="fFooter.html" name="footer">
+        <frameset noresize >
+            <frame src="fFooter.html" name="footer" scrolling="no">
         </frameset>
      </frameset>
 </head>
