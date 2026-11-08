@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(168, 112,78 );
+}
+
+.sidebar-link a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    /* nanti nyesuaiin dengan warna backgroundnya */
+    color: burlywood; 
+
+    text-decoration: none;
+}
