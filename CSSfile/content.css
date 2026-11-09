@@ -1,3 +1,8 @@
+
+body{
+    background: linear-gradient(50deg, rgb(197, 166, 125), rgb(170, 131, 83));
+}
+
 .card-container{
     display: flex;
     flex-direction: row;
@@ -8,7 +13,10 @@
     padding: 0 20px;    
 }
 
+
+
 .card{
+    background: linear-gradient(75deg, rgb(191, 184, 169), rgb(75, 49, 29) );
     width: 325px;
     border-radius: 18px;
     overflow: hidden;
@@ -25,4 +33,15 @@
 }
 .cardContent p{
     margin: 8px 8px;
+}
+.cardContent .btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px 8px;
+    margin-top: 16px;
+    background-color: 	rgb(208,208,208);
+    color: black;
+    /* background: linear-gradient(rgb(161,128,91), rgb(129,105,85)); */
+    
 }

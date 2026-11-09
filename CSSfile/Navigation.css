@@ -4,12 +4,15 @@
 }
 
 body{
-    font-family: sans-serif;   
+    font-family: sans-serif;  
+    
+    
 }
 /* Navbar */
 nav{
+    background: linear-gradient(50deg, rgb(197, 166, 125), rgb(170, 131, 83));
     display: flex;
-    background-color: red;
+    
     justify-content: space-around;
     /* align-items: center; */
     padding: 12px 30px;
@@ -19,7 +22,7 @@ nav{
 
 nav .judul h3{
     margin: 0;
-    color: white;
+    
 }
 
 /* nav .judul {
@@ -28,7 +31,6 @@ nav .judul h3{
 } */
 
 nav .time h4{
-    color: white;
     font-weight: bold;
     font-size: 0.95rem;
     letter-spacing: 0.5px;
