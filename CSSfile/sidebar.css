@@ -7,6 +7,11 @@ body{
     text-align: center;
     /* nanti nyesuaiin dengan warna backgroundnya */
     color: burlywood; 
-
+   
     text-decoration: none;
+}
+
+.sidebar-link li{
+    margin: 8px;
+    list-style: none;
 }
