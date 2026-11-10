@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container {
+  background-color: #d1b490; /* Senada dengan header/accent */
+  color: #3e2723;
+  padding: 24px 30px 15px;
+  border-top: 3px solid #8d6e63;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto 16px;
+}
+
+.footer-brand, .footer-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(62, 39, 35, 0.2);
+  padding-top: 12px;
+  font-size: 0.8rem;
+  color: #5d4037;
+}

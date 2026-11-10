@@ -15,7 +15,8 @@ nav{
     
     justify-content: space-around;
     /* align-items: center; */
-    padding: 12px 30px;
+    padding: 21px 35px;
+    /* padding: 3vmin; */
     box-sizing: border-box;
     gap: 20px;
 }
@@ -42,12 +43,18 @@ nav ul{
     margin: 0;
     /* gap: 15px, 20px, 30px;
      */
-     gap: 20px;
+    gap: 20px;
     width: 40px;
     justify-content: space-between;
     /* background-color: black; */
     
 } 
 nav li a{
+    text-decoration: none;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    /* nanti nyesuaiin dengan warna backgroundnya */
+    color: burlywood; 
+   
     text-decoration: none;
 }
