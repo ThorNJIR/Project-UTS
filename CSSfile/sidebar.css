@@ -8,16 +8,6 @@ body {
     justify-content: center;
 }
 
-.grid-card {
-    /* background-color: red; */
-    /* gap: 12px; */
-}
-
-.item {
-    /* background-color: blue; */
-    /* gap: 4px; */
-}
-
 .sidebar-link a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     /* text-align: center; */
