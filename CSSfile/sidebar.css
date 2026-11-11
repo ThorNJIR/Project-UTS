@@ -1,17 +1,32 @@
-body{
-    background-color: rgb(168, 112,78 );
+body {
+    background-color: rgb(168, 112, 78);
 }
 
-.sidebar-link a{
+.grid-container {
+    display: grid;
+    gap: 8px;
+    justify-content: center;
+}
+
+.grid-card {
+    background-color: red;
+    gap: 16px;
+}
+
+.item {
+    background-color: blue;
+    gap: 8px;
+}
+
+.sidebar-link a {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    /* nanti nyesuaiin dengan warna backgroundnya */
-    color: burlywood; 
-   
+    /* text-align: center; */
+    color: burlywood;
     text-decoration: none;
 }
 
-.sidebar-link li{
-    margin: 8px;
+.sidebar-link li {
+    /* margin: 8px; */
+    /* padding: 8px; */
     list-style: none;
 }

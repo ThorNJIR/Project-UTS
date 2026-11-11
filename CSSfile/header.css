@@ -1,4 +1,4 @@
-body{
+body {
     background: linear-gradient(50deg, rgb(197, 166, 125), rgb(170, 131, 83));
     text-align: center;
 }
@@ -18,18 +18,17 @@ body{
 } */
 .item p {
     text-align: center;
-    
+    font-size: 12px;
     padding: 0.1vmax;
 }
 
-.item h3{
+.item h3 {
     text-align: center;
     /* margin: 8px; */
     padding: 1.5vmax;
 
 }
 
-.font{
-    font-size: 20px;
+.font {
+    font-size: 16px;
 }
-

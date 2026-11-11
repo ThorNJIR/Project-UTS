@@ -1,18 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: sans-serif;  
-    
-    
+body {
+    font-family: sans-serif;
 }
+
 /* Navbar */
-nav{
+nav {
     background: linear-gradient(50deg, rgb(197, 166, 125), rgb(170, 131, 83));
     display: flex;
-    
     justify-content: space-around;
     /* align-items: center; */
     padding: 21px 35px;
@@ -21,9 +19,9 @@ nav{
     gap: 20px;
 }
 
-nav .judul h3{
+nav .judul h3 {
     margin: 0;
-    
+
 }
 
 /* nav .judul {
@@ -31,13 +29,13 @@ nav .judul h3{
     justify-content: flex-start;
 } */
 
-nav .time h4{
+nav .time h4 {
     font-weight: bold;
     font-size: 0.95rem;
     letter-spacing: 0.5px;
 }
 
-nav ul{    
+nav ul {
     display: flex;
     list-style: none;
     margin: 0;
@@ -47,14 +45,15 @@ nav ul{
     width: 40px;
     justify-content: space-between;
     /* background-color: black; */
-    
-} 
-nav li a{
+
+}
+
+nav li a {
     text-decoration: none;
-      font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     /* nanti nyesuaiin dengan warna backgroundnya */
-    color: burlywood; 
-   
+    color: burlywood;
+
     text-decoration: none;
 }

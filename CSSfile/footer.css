@@ -6,7 +6,8 @@
 }
 
 .footer-container {
-  background-color: #d1b490; /* Senada dengan header/accent */
+  background-color: #d1b490;
+  /* Senada dengan header/accent */
   color: #3e2723;
   padding: 24px 30px 15px;
   border-top: 3px solid #8d6e63;
@@ -22,9 +23,10 @@
   margin: 0 auto 16px;
 }
 
-.footer-brand, .footer-bottom{
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+.footer-brand,
+.footer-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
 }
 
 .footer-bottom {
